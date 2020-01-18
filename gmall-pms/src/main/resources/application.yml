@@ -8,3 +8,10 @@
 #item:
 #  rabbitmq:
 #    exchange: GMALL-PMS-EXCHANGE
+
+
+spring:
+  rabbitmq:
+    listener:
+      simple:
+        acknowledge-mode: manual
