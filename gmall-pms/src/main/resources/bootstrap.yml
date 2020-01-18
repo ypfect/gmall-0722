@@ -4,7 +4,9 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: 127.0.0.1:8848
-        namespace: 4b686452-d087-4c2d-b20b-4995d331baed
+        server-addr: aliyun:8848
+        namespace: bda0808d-7de0-4ff1-bc46-b9df72ec4b2b
         group: dev
         file-extension: yml
+      discovery:
+        server-addr: aliyun:8848

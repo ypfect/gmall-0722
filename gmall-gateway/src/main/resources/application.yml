@@ -44,10 +44,10 @@ spring:
 
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
+        server-addr: aliyun:8848
   application:
     name: gmall-gateway
 gmall:
   jwt:
-    pubKeyPath: D:\\project-0722\\rsa\\rsa.pub # 公钥地址
+    pubKeyPath: E:\workspace\github\guli\key\rsa.pub. # 公钥地址
     cookieName: GMALL_TOKEN

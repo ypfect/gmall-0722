@@ -119,4 +119,14 @@ public class SpuInfoController {
         return Resp.ok(null);
     }
 
+
+    @ApiOperation("测试消息")
+    @PostMapping("/test")
+    public Resp<Object> testRabbit(){
+		spuInfoService.testRabbit();
+        return Resp.ok(null);
+    }
+
+
+
 }

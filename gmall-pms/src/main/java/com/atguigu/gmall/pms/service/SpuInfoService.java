@@ -24,6 +24,8 @@ public interface SpuInfoService extends IService<SpuInfoEntity> {
 
     void bigSave(SpuInfoVO spuInfoVO) throws FileNotFoundException;
 
+    void testRabbit();
+
 
 }
 
