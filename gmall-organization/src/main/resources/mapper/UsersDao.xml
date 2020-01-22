@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.atguigu.gmall.organization.dao.UsersDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.atguigu.gmall.organization.entity.UsersEntity" id="usersMap">
+        <result property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="name" column="name"/>
+        <result property="mobile" column="mobile"/>
+        <result property="description" column="description"/>
+        <result property="deleted" column="deleted"/>
+        <result property="enabled" column="enabled"/>
+        <result property="accountNonExpired" column="account_non_expired"/>
+        <result property="credentialsNonExpired" column="credentials_non_expired"/>
+        <result property="accountNonLocked" column="account_non_locked"/>
+        <result property="createdTime" column="created_time"/>
+        <result property="updatedTime" column="updated_time"/>
+        <result property="createdBy" column="created_by"/>
+        <result property="updatedBy" column="updated_by"/>
+    </resultMap>
+
+
+</mapper>

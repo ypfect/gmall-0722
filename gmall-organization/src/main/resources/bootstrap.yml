@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: gmall-organization
+  cloud:
+    nacos:
+      config:
+        server-addr: aliyun:8848
+        namespace: bda0808d-7de0-4ff1-bc46-b9df72ec4b2b
+        group: dev
+        file-extension: yml
+      discovery:
+        server-addr: aliyun:8848
